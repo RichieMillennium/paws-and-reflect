@@ -1,36 +1,5 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-# richard_vance_simspace_challenge_submission
-
-## Design Decisions
-
-- `@material-ui` was selected as the provider for the application's 
-styling and component library.
-- `axios` was selected for all API requests.
-- The `useDogs` custom hook encapsulates all of the data fetching and
-searching functionality.
-- The application consists of 4 primary components:
-  - `Header` - contains the title and search control
-  - `Loader` - uses a spinner to indicate that requests are in progress
-  - `BreedList` - shows the breeds that match the search criteria
-  - `BreedPhotos` - shows the images for the currently selected breed
-
-## Feedback for the Designers (quirks, improvements, etc.)
-
-- We might consider replacing the loading spinners with skeleton placeholders,
-such as `react-loading-skeleton` or the `Skeleton` component in the 
-`@material-ui/lab` project.
-
-## Possible design changes in the future
-
-- Currently if the user deletes their search text after selecting a breed,
-it is possible that the images currently being displayed belong to a breed 
-name that is no longer being displayed in the list of 12. This may not be 
-the desired result.
-- The dog images are sometimes cropped by the `GridList` component. If the
-image dimensions could be determined ahead of time, the `GridListTile`s
-could span multiple columns to mitigate cropping.
-
 ## Available Scripts
 
 In the project directory, you can run:
