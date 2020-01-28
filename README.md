@@ -1,5 +1,14 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Made with
+
+- React 16.12
+    - function components
+    - hooks
+    - global state in React context and reducers
+- TypeScript v3
+- Material-UI v4
+
 ## Available Scripts
 
 In the project directory, you can run:
