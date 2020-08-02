@@ -1,5 +1,9 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+# Paws and Reflect
+
+See the [demo](https://richiemillennium.github.io/paws-and-reflect-demo/)!
+
 ## Made with
 
 - React 16.12
